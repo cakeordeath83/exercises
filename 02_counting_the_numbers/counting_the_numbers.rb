@@ -18,5 +18,5 @@ def count_number
   p "#{string} has #{string.length} characters"
 end
 
-count_number
+count_number 
 
