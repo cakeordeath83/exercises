@@ -6,3 +6,12 @@
 
 # CONSTRAINTS
 # Keep the input, string concatenation and output seperate
+
+
+def say_hello
+  p "What is your name?"
+  name = gets.chomp
+  p "Hello, #{name}, nice to meet you!"
+end
+
+say_hello
