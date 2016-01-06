@@ -15,6 +15,10 @@
 def count_number
   p "What is the input string?"
   string = gets.chomp
+  while string.empty?
+    p "Please enter a string"
+    string = gets.chomp
+  end
   p "#{string} has #{string.length} characters"
 end
 
